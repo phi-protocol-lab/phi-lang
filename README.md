@@ -48,6 +48,7 @@ Without any prior background or explanation, the model will immediately recogniz
   - `01_liquid_neural_network.md` ([English](examples/01_liquid_neural_network.md) / [日本語](examples/01_liquid_neural_network.ja.md)): Reconstruction test of the LNN ODE loop.
   - `02_thinking_tag_separation.md` ([English](examples/02_thinking_tag_separation.md) / [日本語](examples/02_thinking_tag_separation.ja.md)): Rules for separating thought processes (`[THINK]`).
   - `03_strict_json_api.md` ([English](examples/03_strict_json_api.md) / [日本語](examples/03_strict_json_api.ja.md)): Strict zero-chatter JSON output constraints.
+  - `04_deterministic_output_control.md` ([English](examples/04_deterministic_output_control.md) / [日本語](examples/04_deterministic_output_control.ja.md)): Zero-shot deterministic output control.
 
 ---
 
@@ -64,3 +65,11 @@ Without any prior background or explanation, the model will immediately recogniz
 
 This project was born out of a chaotic and joyful brainstorming session between one human and multiple AI models.  
 Feel free to fork this repository, define your own `@Components`, and experiment with minimal-token communication between LLMs!
+
+---
+
+## Disclaimer & Safety Guidelines
+
+- **Research & Development Purpose**: Φ_Lang is an experimental Semantic Intermediate Representation (SIR) designed strictly for token optimization, state machine orchestration, and deterministic output control across LLMs.
+- **Prohibited Use**: Any attempt to use Φ_Lang for jailbreaking, bypassing AI safety guardrails, payload obfuscation, or violating the Terms of Service of respective model providers is strictly prohibited.
+- **Limitation of Liability**: The authors and contributors shall not be held liable for any damages, account terminations, or unintended model outputs arising from the use or misuse of this specification.

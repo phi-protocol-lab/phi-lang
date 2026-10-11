@@ -48,6 +48,7 @@ LLMが事前学習で何億回も読み込んできた **数学記法・型理�
   - `01_liquid_neural_network.md` ([English](examples/01_liquid_neural_network.md) / [日本語](examples/01_liquid_neural_network.ja.md)): LNNのODEループ復元検証。
   - `02_thinking_tag_separation.md` ([English](examples/02_thinking_tag_separation.md) / [日本語](examples/02_thinking_tag_separation.ja.md)): 思考プロセス（[THINK]）分離ルール。
   - `03_strict_json_api.md` ([English](examples/03_strict_json_api.md) / [日本語](examples/03_strict_json_api.ja.md)): おしゃべり禁止の厳格JSON出力制約。
+  - `04_deterministic_output_control.md` ([English](examples/04_deterministic_output_control.md) / [日本語](examples/04_deterministic_output_control.ja.md)): ゼロショット決定論的出力制御。
 
 ---
 
@@ -64,3 +65,11 @@ LLMが事前学習で何億回も読み込んできた **数学記法・型理�
 
 このプロジェクトは、人間1人と複数のAIモデルたちによるカオスで楽しい雑談・実験から生まれました。  
 自由にフォークし、独自の `@コンポーネント` を追加して、LLM同士の最小トークン通信を遊んでみてください！
+
+---
+
+## 免責事項 & セーフティガイドライン (Disclaimer & Safety Guidelines)
+
+- **研究・開発目的の提供**: 本仕様およびプロトコル（Φ_Lang）は、LLM間のトークン効率向上、ステート管理、およびゼロショット制御を目的とした実験的な意味中間表現（SIR）です。
+- **悪用・ジェイルブレイクの禁止**: 商用AIプラットフォームの利用規約（Terms of Service）違反、セーフティガードレールの不当な迂回、または悪意あるペイロードの難読化を目的とした利用を固く禁じます。
+- **免責**: 本プロトコルの利用または本仕様に基づいたプロンプト実行によって生じたいかなる直接的・間接的な損害、アカウント制限、その他の不利益について、作者およびコントリビューターは一切の責任を負いません。
