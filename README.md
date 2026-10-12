@@ -12,7 +12,7 @@
 Φ_Lang is neither a rigid programming language with strict grammar rules nor an encrypted cipher that requires external lookup tables.  
 It is a **"Lego-block protocol"** designed to convey complex logic and architectural constraints to models using the fewest possible tokens.
 
-By borrowing notations that LLMs have already encountered hundreds of millions of times during pre-training—such as **mathematical notation, type theory, POSIX signals, and UNIX pipelines**—it enables diverse model families (including Gemini, Claude, GPT, and local 120B models) to **reconstruct ~70 lines of structured Python code or complex prompt constraints with high fidelity from just 2 lines of text**, without any pre-shared dictionary.
+By borrowing notations that LLMs have already encountered hundreds of millions of times during pre-training—such as **mathematical notation, type theory, POSIX signals, and UNIX pipelines**—it enables diverse model families (including Gemini, Claude, GPT, and local 120B models) to **reconstruct ~70 lines of structured Python code or complex prompt constraints with high fidelity from just 3 lines of text**, without any pre-shared dictionary.
 
 ---
 
