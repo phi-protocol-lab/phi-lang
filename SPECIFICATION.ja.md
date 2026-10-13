@@ -99,9 +99,10 @@ BPE（Byte-Pair Encoding）系トークナイザーでの意図しないトー�
 ### 例3: 出力フォーマット強制 (Strict JSON API)
 
 ```text
-[ phi:v3.3.1 | mode:filter | out:json ]
-@Constraint chat=ban markdown_fence=strip schema="strict_json"
-@Pipe in=Raw -> validate:json -> Out
+[ phi:v3.3.2 | mode:transform | out:json ]
+@Schema target={"status": string, "result": any}
+@Constraint prefix="{" suffix="}" explain=ban markdown=ban
+@Pipe in=Raw -> Out
 
 ```
 

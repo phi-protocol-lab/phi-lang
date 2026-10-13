@@ -81,9 +81,10 @@ Defines an atomic logical or operational block (Lego block).
 
 ### Example 3: Strict JSON Constraint
 ```text
-[ phi:v3.3.1 | mode:filter | out:json ]
-@Constraint chat=ban markdown_fence=strip schema="strict_json"
-@Pipe in=Raw -> validate:json -> Out
+[ phi:v3.3.2 | mode:transform | out:json ]
+@Schema target={"status": string, "result": any}
+@Constraint prefix="{" suffix="}" explain=ban markdown=ban
+@Pipe in=Raw -> Out
 ```
 
 ---
