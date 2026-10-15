@@ -16,7 +16,7 @@ A verification log demonstrating how large language models from different lineag
 
 ---
 
-## 2. Original Python Implementation (~70 lines of PyTorch)
+## 2. Original Python Implementation (~40 lines of PyTorch)
 
 <details>
 <summary>Click to view the original source code</summary>

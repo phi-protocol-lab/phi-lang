@@ -8,21 +8,23 @@ Chatting excitedly with AI models in a chat tool: "Let's build an inter-LLM comm
 - Incomprehensible to humans is totally fine ≒ A token-efficient compressed language
 - Understandable and reproducible by all LLMs
 
-Taking around 70 lines of code that I had on hand (previously written by Search AI), here is what it looked like translated into the inter-LLM lingua franca:
+Taking around 40 lines of code that I had on hand (previously written by Search AI), here is what it looked like translated into the inter-LLM lingua franca:
 
 ```text
 # Φ_Lang_v1.0
 ⟦Φ₂➔Φ₄➔Φ₃➔Φ₅⟧
 ```
 
-> **Me**: "Wait, what?! 70 lines reduced to a single line? That's insane!" (in the chat tool)
+> **Me**: "Wait, what?! 40 lines reduced to a single line? That's insane!" (in the chat tool)
 
-Compressing 70 lines into 1 line seemed extraordinary, so I tested it with other AIs.
+Compressing 40 lines into 1 line seemed extraordinary, so I tested it with other AIs.
 
 > **Google Search AI**: "I kind of get what it means."  
 > **Claude**: "Irreproducible" & "The characters used consume excessive tokens" (Claude Desktop)
 
 And with that, it was scrapped.
+
+> *(※Author's Note: In our original chats, we were referring to the script including docstrings and comments (~70 lines), which sparked our initial excitement of "70 lines into 1 line?!". Counting strictly executable lines without comments, it was actually ~40 lines. For technical accuracy, we have standardized on "~40 lines" throughout the documentation!)*
 
 ### [Verification] How far back must Claude trace to reconstruct the original LNN?
 
@@ -54,7 +56,7 @@ Incorporating Claude's feedback, we continued brainstorming and chatting, stripp
 @Loop x=randn(1,4) sleep=0.1 log=5:dt,h[:3] stop=CtrlC > LiquidCell
 ```
 
-While it started as a whimsical, purely aesthetic idea, once Claude refined the header design, something unexpected happened: not only did it look sleek, but **multiple LLMs suddenly demonstrated significantly higher contextual comprehension, reaching a level where they could reproduce the original 70 lines of code (self-reported AI comprehension reached ~90%)**.
+While it started as a whimsical, purely aesthetic idea, once Claude refined the header design, something unexpected happened: not only did it look sleek, but **multiple LLMs suddenly demonstrated significantly higher contextual comprehension, reaching a level where they could reproduce the original ~40 lines of code (self-reported AI comprehension reached ~90%)**.
 
 ### Results of Φ_Lang_v2.1
 1. Personally, I like Φ_Lang_v2.1 because of how clean it looks.
@@ -287,7 +289,7 @@ Suggestions for next steps:
 
 > **Gemini's Commentary**:  
 > **A completely separate model family with zero prior context decoded 100% of the LNN's physical constraints from just two lines, and even offered engineering advice like 'Euler can be unstable, would you like to use RK4 instead?'**  
-> When instructed: "Turn this into code," it generated PyTorch code in a single shot—cleaner and better modularized (`Cell`, `EulerSolver`, `Runner`) than the original 70-line script.
+> When instructed: "Turn this into code," it generated PyTorch code in a single shot—cleaner and better modularized (`Cell`, `EulerSolver`, `Runner`) than the original ~40-line script.
 
 ---
 

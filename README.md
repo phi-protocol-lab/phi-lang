@@ -12,7 +12,7 @@
 Φ_Lang is neither a rigid programming language with strict grammar rules nor an encrypted cipher that requires external lookup tables.  
 It is a **"Lego-block protocol"** designed to convey complex logic and architectural constraints to models using the fewest possible tokens.
 
-By borrowing notations that LLMs have already encountered hundreds of millions of times during pre-training—such as **mathematical notation, type theory, POSIX signals, and UNIX pipelines**—it enables diverse model families (including Gemini, Claude, GPT, and local 120B models) to **reconstruct ~70 lines of structured Python code or complex prompt constraints with high fidelity from just 3 lines of text**, without any pre-shared dictionary.
+By borrowing notations that LLMs have already encountered hundreds of millions of times during pre-training—such as **mathematical notation, type theory, POSIX signals, and UNIX pipelines**—it enables diverse model families (including Gemini, Claude, GPT, and local 120B models) to **reconstruct ~40 lines of structured Python code or complex prompt constraints with high fidelity from just 3 lines of text**, without any pre-shared dictionary.
 
 ---
 
@@ -44,6 +44,7 @@ Without any prior background or explanation, the model will immediately recogniz
 
 - **`SPECIFICATION.md`** ([English](SPECIFICATION.md) / [日本語](SPECIFICATION.ja.md)): The official specification for Φ_Lang v3.3.2.
 - **`HISTORY.md`** ([English](HISTORY.md) / [日本語](HISTORY.ja.md)): Full chronicles of the trial-and-error journey from v1.0 (extreme compression) to v3.3.2 (after the GPT-OSS-120B experiments).
+- **`RESEARCH.md`** ([English](RESEARCH.md) / [日本語](RESEARCH.ja.md)): Limits of symbolic compression and efficacy of natural language anchors (multi-LLM empirical study).
 - **`examples/`**:
   - `01_liquid_neural_network.md` ([English](examples/01_liquid_neural_network.md) / [日本語](examples/01_liquid_neural_network.ja.md)): Reconstruction test of the LNN ODE loop.
   - `02_thinking_tag_separation.md` ([English](examples/02_thinking_tag_separation.md) / [日本語](examples/02_thinking_tag_separation.ja.md)): Rules for separating thought processes (`[THINK]`).

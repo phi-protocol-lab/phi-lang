@@ -12,7 +12,7 @@
 Φ_Lang は、厳格な文法を持つプログラミング言語でも、外部辞書を必要とする暗号でもありません。  
 最小のトークンで複雑なロジックや制約をモデルに伝えるための**「レゴブロック型プロトコル」**です。
 
-LLMが事前学習で何億回も読み込んできた **数学記法・型理論・POSIXシグナル・UNIXパイプ** を借用することで、Gemini、Claude、GPT、ローカルの120Bモデルといった異なる系統のLLMに対し、事前共有辞書なしで**わずか3行の記述から約70行のPythonコードやプロンプト制約を高精度に復元**させることができます。
+LLMが事前学習で何億回も読み込んできた **数学記法・型理論・POSIXシグナル・UNIXパイプ** を借用することで、Gemini、Claude、GPT、ローカルの120Bモデルといった異なる系統のLLMに対し、事前共有辞書なしで**わずか3行の記述から約40行のPythonコードやプロンプト制約を高精度に復元**させることができます。
 
 ---
 
@@ -44,6 +44,7 @@ LLMが事前学習で何億回も読み込んできた **数学記法・型理�
 
 - **`SPECIFICATION.md`** ([English](SPECIFICATION.md) / [日本語](SPECIFICATION.ja.md)): Φ_Lang v3.3.2 の正式仕様書。
 - **`HISTORY.md`** ([English](HISTORY.md) / [日本語](HISTORY.ja.md)): v1.0（超圧縮）から v3.3.2（GPT-OSS-120B実験を経た後）に至る試行錯誤の全記録。
+- **`RESEARCH.md`** ([English](RESEARCH.md) / [日本語](RESEARCH.ja.md)): 記号圧縮の限界と自然言語アンカーの有効性（複数LLM横断比較実験レポート）。
 - **`examples/`**:
   - `01_liquid_neural_network.md` ([English](examples/01_liquid_neural_network.md) / [日本語](examples/01_liquid_neural_network.ja.md)): LNNのODEループ復元検証。
   - `02_thinking_tag_separation.md` ([English](examples/02_thinking_tag_separation.md) / [日本語](examples/02_thinking_tag_separation.ja.md)): 思考プロセス（[THINK]）分離ルール。

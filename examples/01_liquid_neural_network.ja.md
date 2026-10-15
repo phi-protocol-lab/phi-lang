@@ -16,7 +16,7 @@
 
 ---
 
-## 2. 元の Python 実装（約70行の PyTorch スクリプト）
+## 2. 元の Python 実装（約40行の PyTorch スクリプト）
 
 <details>
 <summary>クリックしてオリジナルのソースコードを表示</summary>
