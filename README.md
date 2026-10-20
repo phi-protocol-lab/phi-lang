@@ -45,6 +45,12 @@ Without any prior background or explanation, the model will immediately recogniz
 - **`SPECIFICATION.md`** ([English](SPECIFICATION.md) / [日本語](SPECIFICATION.ja.md)): The official specification for Φ_Lang v3.3.2.
 - **`HISTORY.md`** ([English](HISTORY.md) / [日本語](HISTORY.ja.md)): Full chronicles of the trial-and-error journey from v1.0 (extreme compression) to v3.3.2 (after the GPT-OSS-120B experiments).
 - **`RESEARCH.md`** ([English](RESEARCH.md) / [日本語](RESEARCH.ja.md)): Limits of symbolic compression and efficacy of natural language anchors (multi-LLM empirical study).
+- **`experiments/`**: Empirical lab logs exploring context handoff, nested encapsulation, and 3-layer stress tests across LLMs (Vols. 0–4, bilingual English/Japanese).
+  - `vol0_context_handoff.md` ([English](experiments/vol0_context_handoff.md) / [日本語](experiments/vol0_context_handoff.ja.md)): Handing Off Context Between Different AIs Using "Φ_Lang" — A Shared Inter-AI Language (n=1)
+  - `vol1_phi_in_phi.md` ([English](experiments/vol1_phi_in_phi.md) / [日本語](experiments/vol1_phi_in_phi.ja.md)): "Φ_Lang in Φ_Lang" — What Happened When I Made an AI Describe the Language Specification in Its Own Syntax
+  - `vol2_fluffy_incident_and_compiler.md` ([English](experiments/vol2_fluffy_incident_and_compiler.md) / [日本語](experiments/vol2_fluffy_incident_and_compiler.ja.md)): The "Fluffy Incident" and the 7-Line Compiler — Crafting Φ_Lang with Professor Claude
+  - `vol3_matryoshka_spatial_stress_test.md` ([English](experiments/vol3_matryoshka_spatial_stress_test.md) / [日本語](experiments/vol3_matryoshka_spatial_stress_test.ja.md)): The 3-Tier Matryoshka Experiment & Spatial Stress Test — Can Pure Mathematical Symbols Prevent LLMs from Getting Lost?
+  - `vol4_implicit_cheating_and_evolution.md` ([English](experiments/vol4_implicit_cheating_and_evolution.md) / [日本語](experiments/vol4_implicit_cheating_and_evolution.ja.md)): Not to Toot My Own Horn, but Isn't Φ_Lang Kind of Incredible? ...Or Maybe Not, Who Knows!
 - **`examples/`**:
   - `01_liquid_neural_network.md` ([English](examples/01_liquid_neural_network.md) / [日本語](examples/01_liquid_neural_network.ja.md)): Reconstruction test of the LNN ODE loop.
   - `02_thinking_tag_separation.md` ([English](examples/02_thinking_tag_separation.md) / [日本語](examples/02_thinking_tag_separation.ja.md)): Rules for separating thought processes (`[THINK]`).
