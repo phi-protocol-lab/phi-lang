@@ -18,7 +18,28 @@ By borrowing notations that LLMs have already encountered hundreds of millions o
 
 ## 🚀 10-Second Quickstart
 
-Try pasting the following prompt directly into your favorite frontier LLM (ChatGPT, Claude, Gemini, local models, etc.):
+Φ_Lang operates bi-directionally: **hyper-compressing sprawling dialogues and codebases (compilation)** and **reconstructing execution logic across frontier models with high fidelity (decompression)**.
+
+### 1. Compression: Instantly Turn a Long Chat into Handoff Data
+Paste the following "Portable Compiler v3.4.4" at the tail end of an extended conversation or code walkthrough:
+
+```text
+Follow the Φ_Lang specification below to convert our dialogue and deliverables into "compressed handoff data for another AI":
+
+[ phi:v3.4.4 | role:compiler | lang:en | note:"Lightweight intermediate language for inter-AI communication" ]
+@Syntax header="[...]" block="@EnglishTag"
+@Rule (Do not use category labels as tags; eliminate redundant duplicates)
+  - Background/Context(Fluffy) = "Compress intent and synopsis into concise natural language using AI intuition"
+  - Procedures/Rules(Rigid) = "Fix initial values/equations with symbols; detail behavior inside @Loop with numbered concise steps"
+  - Contains Code(Capsule) = "Do not paste raw code; nest [ phi:v3.4.4 | role:code_capsule | fw:... ] inside @Artifact type='phi_capsule', providing a blueprint fully restorable via initial values, equations, and @Loop steps"
+@Output Output ONLY Φ_Lang code so the next AI can resume work or restore code standalone
+```
+> **Note:** Even sprawling multi-file codebases and conversations spanning tens of thousands of tokens are compressed into a few thousand tokens (90–96% reduction), ready to hand off cleanly without context loss.
+
+---
+
+### 2. Decompression: Reconstruct Fully Working Code from Just 3 Lines
+Try pasting the resulting Φ_Lang block (or the minimal sample below) directly into your favorite frontier LLM (ChatGPT, Claude, Gemini, local models, etc.):
 
 ```text
 Interpret the following Φ_Lang specification and implement it as executable Python (PyTorch) code:
@@ -28,15 +49,19 @@ Interpret the following Φ_Lang specification and implement it as executable Pyt
 @Loop step=realtime in=N(0,I4) dim(h)=8 pipe=(Cell->h) log=(step%5:h[:3]) stop=SIGINT
 ```
 
-Without any prior background or explanation, the model will immediately recognize the physical and architectural requirements of a Liquid Neural Network (differential-equation-driven neural state) and generate clean, modular code.
+Without any prior background or explanation, the model immediately recognizes the physical and mathematical requirements of a Liquid Neural Network (differential-equation-driven neural state) and generates ~40 lines of clean, modular code.
 
 ---
 
-## 🧩 Three Core Design Principles
+## 🧩 Four Core Design Principles
 
 1. **Borrowing over Invention**: Avoid inventing arbitrary proprietary glyphs (such as `⟦...⟧`). Instead, borrow notations that models already understand deeply (`->`, `*`, `N(0,I4)`, `SIGINT`).
 2. **Lego-Block Structure**: Standardize only the outer frame (`[...]` header and `@Component` declarations), leaving internal stem interpretation to the model's contextual completion capabilities.
-3. **Token-Boundary Safety**: Ensure ASCII compatibility and strict whitespace separation to prevent byte fallback fragmentation or token gluing in BPE tokenizers.
+3. **Dual-Phase Harmony (Fluid & Rigid)**:
+   - **Fluid Phase ("Fluffy Mode")**: Entrust narrative intent and background context to the model's latent vector space intuition, compressing it flexibly into concise prose.
+   - **Rigid Phase ("Rock-Solid Mode")**: Pin down numerical constraints, equations, and operational procedures with symbols and numbered steps inside `@Loop`.
+   - Suppresses the AI's natural tendency toward "lazy summarization" (lossy dilution) while unlocking autonomous self-healing during code reconstruction.
+4. **Token-Boundary Safety**: Ensure ASCII compatibility and strict whitespace separation to prevent byte fallback fragmentation or token gluing in BPE tokenizers.
 
 ---
 
