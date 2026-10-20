@@ -34,7 +34,7 @@ Follow the Φ_Lang specification below to convert our dialogue and deliverables 
   - Contains Code(Capsule) = "Do not paste raw code; nest [ phi:v3.4.4 | role:code_capsule | fw:... ] inside @Artifact type='phi_capsule', providing a blueprint fully restorable via initial values, equations, and @Loop steps"
 @Output Output ONLY Φ_Lang code so the next AI can resume work or restore code standalone
 ```
-> **Note:** Even sprawling multi-file codebases and conversations spanning tens of thousands of tokens are compressed into a few thousand tokens (90–96% reduction), ready to hand off cleanly without context loss.
+> **Note:** Condenses sprawling conversations and code into a structured capsule of a few thousand tokens, ready to hand off cleanly. *(Empirically achieved up to ~96% reduction in long-context stress tests—e.g., ~100k chars down to ~3.3k chars. Compression ratios naturally vary by context length, language, and task. Community benchmarks and feedback across different models are warmly welcomed!)*
 
 ---
 
