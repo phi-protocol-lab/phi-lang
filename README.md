@@ -29,7 +29,7 @@ Follow the Φ_Lang specification below to convert our dialogue and deliverables 
 [ phi:v3.4.4 | role:compiler | lang:en | note:"Lightweight intermediate language for inter-AI communication" ]
 @Syntax header="[...]" block="@EnglishTag"
 @Rule (Do not use category labels as tags; eliminate redundant duplicates)
-  - Background/Context(Fluffy) = "Compress intent and synopsis into concise natural language using AI intuition"
+  - Background/Context(Flexible) = "Compress intent and synopsis into concise English (Clearly separate subjects so User's tone or persona is never confused with AI's behavior)"
   - Procedures/Rules(Rigid) = "Fix initial values/equations with symbols; detail behavior inside @Loop with numbered concise steps"
   - Contains Code(Capsule) = "Do not paste raw code; nest [ phi:v3.4.4 | role:code_capsule | fw:... ] inside @Artifact type='phi_capsule', providing a blueprint fully restorable via initial values, equations, and @Loop steps"
 @Output Output ONLY Φ_Lang code so the next AI can resume work or restore code standalone

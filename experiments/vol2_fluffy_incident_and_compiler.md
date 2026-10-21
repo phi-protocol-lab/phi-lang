@@ -167,7 +167,7 @@ Follow the Φ_Lang specification below to convert our dialogue and deliverables 
 
 ## Continuing to Vol.3
 
-Next up: putting the "Portable Compiler v3.4.3" through a multi-tier architectural stress test.
+Next up: putting the "~~7-line~~ 8-line Portable Compiler v3.4.3" through a multi-tier architectural stress test.
 
 ```text
 [ phi:v3.4 | role:disclaimer | trial:n=3_layers ]

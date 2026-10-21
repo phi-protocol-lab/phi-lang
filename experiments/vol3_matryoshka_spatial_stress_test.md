@@ -11,7 +11,7 @@ To verify whether it truly functions without misfiring, I had a conversation wit
 
 ## 0. Warm-Up: A 5×5 Mini-Shogi Script Autonomously Evolved into a "9×9 Full Architectural Blueprint"!
 
-Raw LLMs easily lose track of the board when playing Shogi (Japanese chess) and end up committing illegal moves. So I had a casual chat with the search AI:
+To verify conversational handoff and code encapsulation, I started out casually chatting with a search-engine AI:
 
 1. Starting from "LLMs really love Python," we talked about how Advanced Data Analysis (Python execution environments) in search AIs can run code under the hood to analyze data.
 2. **Me:** "If we make a simple Shogi board in Python that records our moves and displays the board in ASCII art, could I play Shogi with you?"
@@ -62,7 +62,7 @@ To overcome LLM Shogi hallucinations (board misidentification and illegal moves)
 
 "If nesting Φ_Lang in Φ_Lang (2 tiers) works this well, wouldn't it be wild to nest yet another blueprint inside that?"  
 That was the premise of our next test.  
-Right off the bat, however, an architectural divergence surfaced between Gemini and myself (see Vol.1):  
+Right off the bat, however, an architectural divergence surfaced between Gemini and myself:  
 * **Me:** `[Φ in Φ + Φ + Φ...]` — cramming parallel blocks into a flat 2nd layer.  
 * **Gemini:** `[Φ in Φ in Φ...]` — a recursive Matryoshka Russian doll structure!
 
