@@ -70,12 +70,13 @@ LLMが事前学習で何億回も読み込んできた **数学記法・型理�
 - **`SPECIFICATION.md`** ([English](SPECIFICATION.md) / [日本語](SPECIFICATION.ja.md)): Φ_Lang v3.3.2 の正式仕様書。
 - **`HISTORY.md`** ([English](HISTORY.md) / [日本語](HISTORY.ja.md)): v1.0（超圧縮）から v3.3.2（GPT-OSS-120B実験を経た後）に至る試行錯誤の全記録。
 - **`RESEARCH.md`** ([English](RESEARCH.md) / [日本語](RESEARCH.ja.md)): 記号圧縮の限界と自然言語アンカーの有効性（複数LLM横断比較実験レポート）。
-- **`experiments/`**: LLM間での会話引き継ぎ・カプセル化・3段マトリョーシカ構造の限界に挑んだ実践実験記録（note連載ログ Vol.0〜Vol.4、日英両対応）。
+- **`experiments/`**: LLM間での会話引き継ぎ・カプセル化・3段マトリョーシカ構造の限界に挑んだ実践実験記録（note連載ログ Vol.0〜Vol.5、日英両対応）。
   - `vol0_context_handoff.md` ([English](experiments/vol0_context_handoff.md) / [日本語](experiments/vol0_context_handoff.ja.md)): AI同士の共通語「Φ_Lang」で、別AIへの会話の引き継ぎを試してみた (n=1)
   - `vol1_phi_in_phi.md` ([English](experiments/vol1_phi_in_phi.md) / [日本語](experiments/vol1_phi_in_phi.ja.md)): 「Φ_Lang in Φ_Lang」——言語仕様をその言語自身で記述させたら、AIが興奮し始めた話
   - `vol2_fluffy_incident_and_compiler.md` ([English](experiments/vol2_fluffy_incident_and_compiler.md) / [日本語](experiments/vol2_fluffy_incident_and_compiler.ja.md)): 「ゆるふわ」事件と、7行コンパイラの完成 —— Claude先生と創るΦ_Lang
   - `vol3_matryoshka_spatial_stress_test.md` ([English](experiments/vol3_matryoshka_spatial_stress_test.md) / [日本語](experiments/vol3_matryoshka_spatial_stress_test.ja.md)): 3段マトリョーシカ実験と空間把握ストレステスト —— 記号だけでAIの「迷子」を防げるか？
   - `vol4_implicit_cheating_and_evolution.md` ([English](experiments/vol4_implicit_cheating_and_evolution.md) / [日本語](experiments/vol4_implicit_cheating_and_evolution.ja.md)): 自分で言うのも何だけどΦ_Langって凄いんじゃない？…知らんけど
+  - `vol5_phi_lang_ci.md` ([English](experiments/vol5_phi_lang_ci.md) / [日本語](experiments/vol5_phi_lang_ci.ja.md)): 一言一句違えない版 Φ_Lang（ファイ・ラング）: Φ_Lang[CI]
 - **`examples/`**:
   - `01_liquid_neural_network.md` ([English](examples/01_liquid_neural_network.md) / [日本語](examples/01_liquid_neural_network.ja.md)): LNNのODEループ復元検証。
   - `02_thinking_tag_separation.md` ([English](examples/02_thinking_tag_separation.md) / [日本語](examples/02_thinking_tag_separation.ja.md)): 思考プロセス（[THINK]）分離ルール。
